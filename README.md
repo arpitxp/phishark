@@ -1,6 +1,6 @@
 # PhishArk - Advanced Phishing Toolkit
 
-![PhishArk Logo](https://raw.githubusercontent.com/arpitxp/files/main/phishingsites/assets/phishark-banner.png)
+![PhishArk Logo](https://gitlab.com/arpitxd/phishark/-/raw/main/data/phishark.png)
 
 **PhishArk** is a powerful and advanced phishing tool that supports over **70 website templates**, real-time data capture, Telegram bot integration, custom site support, tunneling via multiple services, and much more.
 
@@ -95,7 +95,8 @@ This tool is made for educational purposes only.
 Using PhishArk for attacking targets without prior mutual consent is illegal. The developer is not responsible for any misuse.
 
 ## 👨‍💻 Credits
-Arpit Dhameliya - GitHub, GitLab
+Arpit Dhameliya - 
+https://gitlab.com/arpitxd
 
 Zeel Patel - 
 https://gitlab.com/zeelxpatel
