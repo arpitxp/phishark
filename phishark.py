@@ -127,7 +127,7 @@ LHR_LOG_FILE = f"{TUNNEL_DIR}/lhr.log"
 SVO_LOG_FILE = f"{TUNNEL_DIR}/svo.log"
 
 # Process and package lists
-PACKAGES   = ["php", "ssh"]
+PACKAGES   = ["php", "ssh", "lolcat"]
 MODULES    = ["requests", "rich", "beautifulsoup4:bs4"]
 TUNNELERS  = ["cloudflared", "loclx"]
 PROCESSES  = ["php", "ssh", "cloudflared", "loclx", "localxpose"]
@@ -375,6 +375,7 @@ class PhishArk:
             os.system("pkg install proot -y")
         # Install packages and SSH
         self.installer("php")
+        self.installer("lolcat")
         if Utils.check_if_installed("apt") and not Utils.check_if_installed("pkg"):
             self.installer("ssh", "openssh-client")
         else:
